@@ -1,0 +1,19 @@
+import re
+file=open (r'c:\Users\administrator.MCA\Desktop\content.txt.txt','r+')
+data=file.read()
+# file.close()
+# data1=re.findall('a[a-zA-Z]*',data)
+# print(len(data1))
+# print(data1)
+# data1 = re.split(' ',data)
+# count=0
+# words=[]
+# for i in data1:
+#     out=re.match('^a',i)
+#     if out:
+#         words+=[i]
+#         count+=1
+# print(count)
+# print(words)
+data1=re.sub('a','@',data)
+file.write(data1)

@@ -1,0 +1,4 @@
+import re
+st = 'the data is ABCDEFGIJKABC'
+data=re.findall(
+print(data)
